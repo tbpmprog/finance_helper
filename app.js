@@ -1,6 +1,6 @@
 
-import { DB_VERSION } from '/config.js';
-import { initAppStorage, setAppStorage } from '/Storage/storage.js';
+import { DB_VERSION } from './config.js';
+import { initAppStorage, setAppStorage } from './Storage/storage.js';
 import { migrateStructureIfNeeded } from '../DB/db.js';
 
 window.onload = async () => {
