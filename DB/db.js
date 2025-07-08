@@ -1,5 +1,5 @@
 
-import { TABLE_SCHEMAS } from './schemas.js';
+import { TABLE_SCHEMAS } from '../DB/schemas.js';
 import { getAppStorage, setAppStorage } from '../Storage/storage.js';
 
 export async function migrateStructureIfNeeded() {
